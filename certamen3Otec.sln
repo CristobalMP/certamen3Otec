@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtecLibrary", "OtecLibrary\OtecLibrary.csproj", "{D324F50D-0511-4A9D-803F-F0D69A680686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otec", "Otec\Otec.csproj", "{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otec", "Otec\Otec.csproj", "{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{DF9666F7-519C-4EC1-A78A-647B4B014C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBApi", "WEBApi\WEBApi.csproj", "{7721E1ED-CEE5-4EAC-B9E2-4999A17D1CB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9666F7-519C-4EC1-A78A-647B4B014C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9666F7-519C-4EC1-A78A-647B4B014C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9666F7-519C-4EC1-A78A-647B4B014C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9666F7-519C-4EC1-A78A-647B4B014C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7721E1ED-CEE5-4EAC-B9E2-4999A17D1CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7721E1ED-CEE5-4EAC-B9E2-4999A17D1CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7721E1ED-CEE5-4EAC-B9E2-4999A17D1CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7721E1ED-CEE5-4EAC-B9E2-4999A17D1CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

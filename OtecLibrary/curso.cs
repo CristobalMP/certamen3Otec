@@ -10,7 +10,6 @@ namespace OtecLibrary
     {
         private int id_curso;
         private string nombre_curso;
-        private asignatura asignatura = new asignatura();
         private int cantidad_asignaturas;
 
         public curso()
@@ -18,15 +17,15 @@ namespace OtecLibrary
         
         }
 
-        public curso(int id_curso, string nombre_curso)
+        public curso(int id_curso, string nombre_curso, int cantidad_asignaturas)
         {
             this.id_curso = id_curso;
             this.nombre_curso = nombre_curso;
+            this.cantidad_asignaturas = cantidad_asignaturas;
         }
 
         public int Id_curso { get => id_curso; set => id_curso = value; }
         public string Nombre_curso { get => nombre_curso; set => nombre_curso = value; }
-        public asignatura Asignatura { get => asignatura; set => asignatura = value; }
         public int Cantidad_asignaturas { get => cantidad_asignaturas; set => cantidad_asignaturas = value; }
     }
 }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtecLibrary", "OtecLibrary\OtecLibrary.csproj", "{D324F50D-0511-4A9D-803F-F0D69A680686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otec", "Otec\Otec.csproj", "{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D324F50D-0511-4A9D-803F-F0D69A680686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D324F50D-0511-4A9D-803F-F0D69A680686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D324F50D-0511-4A9D-803F-F0D69A680686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D324F50D-0511-4A9D-803F-F0D69A680686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2268A57F-AE77-4E0A-8937-B7B9BDECA5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F843D158-C85D-47C9-A0D2-1A283533486D}
+	EndGlobalSection
+EndGlobal
